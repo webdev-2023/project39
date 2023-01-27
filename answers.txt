@@ -1,0 +1,30 @@
+1. The "P" in HTTP means protocol. Explain in your own words what a protocol is.
+Ans: A protocol is a set of rules/procedures that needs to be followed while performing a task to ensure consistency of outcome. 
+
+2. HTTP is built on top of which protocol?
+Ans: HTTP is built on top of the TCP/IP protocols (Transmission Control Protocol/Internet Protocol). HTTP request/response between the client and server are sent inside IP packet(s).
+
+3. If a request is successful, what will the status code of the response be?
+Ans: Successful response status codes are between 200 and 299. If a request is successful, we received the status code 200 OK.
+
+4. What methods are the CRUD equivalents in HTTP?
+Ans: CRUD stands for Create, Read, Update, and Delete. The corresponding HTTP methods are:
+POST - Create
+GET - Read
+PUT/PATCH - Update
+DELETE - Delete
+
+5. What is a stateless protocol?
+Ans: In a stateless protocol, the server does not remember (or keep records of) the previous requests. Every request is treated independently of other requests.
+
+6. Which of the following are valid MIME types?
+a. text/time - Invalid
+b. image/jpeg - Valid
+c. text/javascript - Valid
+d. text/jsx - Invalid
+e. image/psd - Invalid
+f. text/calendar - Valid
+
+7. Which status message can you expect if a server does not allow you permission to request a specific resource?
+Ans: 403 Forbidden - the client does not have access rights to the content; that is, it is unauthorized, so the server is refusing to give the requested resource.
+Reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
